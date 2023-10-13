@@ -25,7 +25,11 @@ module.exports = [
     config: {
       enabled: true,
       headers: "*",
-      origin: ["http://localhost:3000", "https://me.subasacharya.com.np"],
+      origin: [
+        "http://localhost:3000",
+        "https://me.subasacharya.com.np",
+        "http://192.168.31.130:3000",
+      ],
     },
   },
   "strapi::poweredBy",
