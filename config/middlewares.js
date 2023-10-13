@@ -6,7 +6,8 @@ module.exports = [
       contentSecurityPolicy: {
         useDefaults: true,
         directives: {
-          "connect-src": ["'self'", "http:", "https:", "img-src"],
+          "connect-src": ["'self'", "http:", "https:"],
+          "img-src": ["'self'", "data:", "cdn.jsdelivr.net", "strapi.io"],
           upgradeInsecureRequests: null,
         },
       },
