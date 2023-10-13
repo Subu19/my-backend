@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "helpers",
+  "info": {
+    "singularName": "helper",
+    "pluralName": "helpers",
+    "displayName": "helper"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
