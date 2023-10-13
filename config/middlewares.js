@@ -7,7 +7,14 @@ module.exports = [
         useDefaults: true,
         directives: {
           "connect-src": ["'self'", "http:", "https:"],
-          "img-src": ["'self'", "data:", "cdn.jsdelivr.net", "strapi.io"],
+          "img-src": [
+            "'self'",
+            "data:",
+            "cdn.jsdelivr.net",
+            "strapi.io",
+            "http:",
+            "https:",
+          ],
           upgradeInsecureRequests: null,
         },
       },
