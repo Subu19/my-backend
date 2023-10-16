@@ -31,6 +31,7 @@ module.exports = [
         "http://192.168.31.130:3000",
         "https://mybackend.subasacharya.com.np",
         "http://localhost:1337",
+        "https://portfolio.subasacharya.com.np",
       ],
     },
   },
